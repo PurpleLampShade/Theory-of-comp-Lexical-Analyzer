@@ -1,0 +1,8 @@
+// Very basic get and print function
+
+INTEGER a = 5;
+FLOAT b = 2.5;
+GET a;
+GET b;
+PRINT a; // Should be 5
+PRINT b; // Should be 2.5

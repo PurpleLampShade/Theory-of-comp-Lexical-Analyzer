@@ -1,0 +1,12 @@
+// Nested loops example
+
+FLOAT n = 1.0;
+
+WHILE (n < 10.0) {
+    IF (n == 5.0) {
+        PRINT n; // Should be 5.0
+    }
+    ELSE {
+        n = n + 0.5;
+    }
+}

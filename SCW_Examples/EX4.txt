@@ -1,0 +1,12 @@
+// Mixed type example, slightly more complicated
+
+INTEGER i = 0;
+INTEGER limit = 3;
+FLOAT total = 0.0;
+
+WHILE (i != limit) {
+    total = total + 2.5;
+    i = i + 1;
+}
+
+PRINT total; // Should be 5

@@ -1,0 +1,8 @@
+// Floaters w/ a while loop counter
+
+FLOAT counter = 0.0;
+
+WHILE (counter < 5.5) {
+    counter = counter + 1.1;
+    PRINT counter; // Should end with 4.4
+}
